@@ -1,2 +1,3 @@
 # cadastra-aluno-html-web
-Atividade mockup
+Atividade mockup para sala de aula com design elegantificado
+Não inclui funcionalidade back-end
