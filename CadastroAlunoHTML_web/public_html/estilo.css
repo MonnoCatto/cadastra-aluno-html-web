@@ -1,0 +1,16 @@
+body{
+    font-family:"arial";
+    font-size:16px;
+    color: #21180a;
+    background-color: #fff1db;
+}
+a{
+    color: #b87000
+}
+td{
+    height:30px;
+    font-size:13px;
+}
+select{
+    background-color:#d9dde7;
+}

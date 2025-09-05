@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+        <script src="biblioteca.js"></script>
+    </head>
+    <body>
+        <h1>Cadastrar Aluno</h1>
+        <form name="FrmCadastroAluno" method="post" action="">
+            <input type="hidden" name="id">
+            Nome: <input type="text" size="50" maxlength="100"><br><br>
+            Idade: <input type="text" size="10" maxlength="10"
+                          onkeydown ="return somenteNumero(event)"><br><br>
+            <input type="reset" value="Limpar" />
+            <input type="submit" value="Cadastrar" name="cadastrar"
+                   onClick="return validar(this.form)"/>
+        </form>
+        <br>
+        <a href="home.html" rel="prev">Voltar ao menu</a>
+    </body>
+</html>
